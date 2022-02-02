@@ -1,0 +1,6 @@
+<h2>Your draft has been sent to:</h2>
+<h3 *ngIf="formValues">{{formValues.firstName}} {{formValues.lastName}}</h3>
+<h4 *ngIf="formValues">{{formValues.address.street}}</h4>
+<h4 *ngIf="formValues">{{formValues.address.city}}</h4>
+<h4 *ngIf="formValues">{{formValues.address.state}}</h4>
+<h4 *ngIf="formValues">{{formValues.address.cip}}</h4>
